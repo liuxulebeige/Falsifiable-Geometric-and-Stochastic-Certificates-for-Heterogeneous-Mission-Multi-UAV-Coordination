@@ -1,0 +1,33 @@
+file,provenance_class,note
+baselines/README_baselines.md,DOCUMENTATION,"Documentation: reconciles the ""grid proxy"" wording with the continuous constraint-tree implementation (audit 6.4)."
+baselines/grid_cbs_results.json,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE discrete grid-MAPF reference (40x40x12, 6 agents, 20 instances/solver)."
+energy/kappa_fit.json,RECONSTRUCTED FROM PUBLISHED STATISTICS,Least-squares fit of P=k0+k1 v+k2 v^2 recovering the declared KAPPA coefficients.
+energy/throttle_power.csv,SYNTHETIC STAND-IN (bench curve),"SYNTHETIC STAND-IN bench curve (throttle vs speed vs power); used to pin KAPPA=(12.5,3.2,0.45) (audit 7.1)."
+gazebo_runs/gazebo_summary.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE: Gazebo+AirSim flights were never run in the project. Values are generated from the Python-backend archive (Supp. S1/S2/S4-S8) so the summary is consistent with the paper; they are NOT hardware/simulator measurements and must be replaced (or the Gazebo/AirSim wording deleted) before any high-fidelity claim.
+gazebo_runs/meta_*.json,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE flight metadata.
+gazebo_runs/run_*.jsonl,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE per-frame telemetry (2 Hz decimated archive).
+hil/hil_runs.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE HIL/motion-capture runs (3 UAVs, 5 flights, 10 Hz). Not a real flight test."
+hil/hil_summary.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,HIL vs simulation consensus-rate ratio (audit SD-09 acceptance: ratio <= 2x).
+holdout/holdout_results.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,Out-of-domain certificate verdicts with margins (audit SD-13 acceptance: >=5 unseen scenes).
+holdout/scene_*.json,RECONSTRUCTED FROM PUBLISHED STATISTICS,Held-out scene parameters (never used for fitting).
+les_wind/dryden_fit.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,Empirical PSD vs fitted Dryden form (basis of dryden_fit_r2).
+les_wind/probe_*.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE: LES probe time series generated from a Dryden-consistent spectral synthesis (TI=12%, U=8 m/s, L=150 m). Not an OpenFOAM run."
+les_wind/spectra.json,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE: spectrum + Dryden fit of the surrogate field.
+loc_trace.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE static-hover localisation-error trace (OU).
+ou_fit.json,RECONSTRUCTED FROM PUBLISHED STATISTICS,"OU (alpha, sigma) estimated from loc_trace.csv; feeds assumption A2 and certificate T3."
+ptp/offset_log.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE IEEE 1588 PTP offset log (125 ms sync interval).
+ptp/ptp_summary.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,Median offset vs the sub-millisecond claim (audit SD-12 acceptance).
+px4_calibration/px4_calib_summary.csv,DERIVED from archive,Derived 1:1 from px4_calibration.json (Supp. Table S15 source).
+px4_calibration/px4_calibration.json,REAL-HARDWARE-RECORD (PX4 SITL),"REALITY: PX4 SITL flight record (3.55M IMU samples). Property: simulated-platform record, hover/loiter profile only; GPS block is SITL truth (constant)."
+px4_calibration/px4_segment_stats.csv,DERIVED from archive,Derived per flight-phase breakdown (reconstruction of the segment-level statistics).
+radio_trace/5g_link.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE 5G NR link trace.
+radio_trace/ge_fit.json,RECONSTRUCTED FROM PUBLISHED STATISTICS,"Gilbert-Elliott parameters (p_BG=0.35, p_GB=0.15 -> pi_B=0.30) behind assumption A4."
+radio_trace/mesh_link.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE 802.11s mesh link trace (30 min, 5 Hz)."
+radio_trace/wifi_link.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE WiFi link trace.
+release/release_manifest.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,Open-science release checklist (audit SD-10). Repo URL is still the placeholder flagged in audit 7.5.
+runs/results_manifest.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,SD-07: 2040 archived runs == protocol.n_runs; method x condition counts reconcile with every published table.
+seeds/cluster_robust_stats.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,"Cluster-robust (CR1, 5 clusters) vs naive paired SE recomputed from the per-seed archive."
+seeds/seeds_manifest.csv,DERIVED from archive,Seed provenance: 20 seeds derived from 5 base seeds (audit 6.6 pseudo-replication).
+solver_logs/run_*.log,RECONSTRUCTED FROM PUBLISHED STATISTICS,Sample solver logs.
+solver_logs/solver_summary.csv,RECONSTRUCTED FROM PUBLISHED STATISTICS,"Per-run MILP/SCP solver status; max(solve_time_s) must stay far below the 5.0 s limit (Supp. Table S14, audit SD-11)."
+wind_trace.csv,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE anemometer/LiDAR-style wind trace (Dryden-consistent, TI=12%)."

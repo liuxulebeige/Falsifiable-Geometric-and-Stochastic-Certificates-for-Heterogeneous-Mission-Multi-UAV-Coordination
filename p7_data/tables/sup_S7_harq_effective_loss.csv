@@ -1,0 +1,7 @@
+raw_loss_pct,burst,independent,published_burst,published_indep_emp,published_prod_p,published_gap_pp,regime
+5,0.033,0.012,0.033,0.012,0.013,0.021,assoc.
+10,0.133,0.108,0.133,0.108,0.1,0.033,assoc.
+20,1.112,0.875,1.112,0.875,0.8,0.312,assoc.
+30,3.429,2.9,3.429,2.9,2.7,0.729,assoc.
+40,6.962,6.767,6.962,6.767,6.4,0.562,assoc.
+50,12.713,12.483,12.713,12.483,12.5,0.213,assoc.

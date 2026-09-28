@@ -1,0 +1,6 @@
+run,n_uav,duration_s,consensus_rate_fitted,ptp_offset_median_us,ptp_offset_max_us,effective_loss_pct,sim_consensus_rate,ratio_sim_over_hil
+1,3,60.0,4.9,4.635,276.53,3.43,8.926,1.822
+2,3,60.0,4.9,3.661,260.51,3.43,8.926,1.822
+3,3,60.0,4.9,4.405,208.93,3.43,8.926,1.822
+4,3,60.0,4.9,4.99,127.16,3.43,8.926,1.822
+5,3,60.0,4.9,3.76,261.07,3.43,8.926,1.822

@@ -1,0 +1,14 @@
+{
+  "link": "5g",
+  "p_BG": 0.35,
+  "p_GB": 0.15,
+  "p_G": 0.7,
+  "p_B": 0.3,
+  "p_loss_empirical": 0.3356,
+  "ci95": [
+    0.3258,
+    0.3453
+  ],
+  "n": 9000,
+  "method": "two-state Gilbert-Elliott HMM fitted by EM/Baum-Welch"
+}

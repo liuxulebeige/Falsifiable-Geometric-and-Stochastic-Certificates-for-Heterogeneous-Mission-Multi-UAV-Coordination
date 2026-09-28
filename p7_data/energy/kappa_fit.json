@@ -1,0 +1,14 @@
+{
+  "k0": 12.5649,
+  "k1": 3.1948,
+  "k2": 0.4504,
+  "model": "P = k0 + k1*v + k2*v^2",
+  "r2": 0.99998,
+  "n": 24,
+  "declared_config_KAPPA": [
+    12.5,
+    3.2,
+    0.45
+  ],
+  "note": "bench curve is a synthetic stand-in generated from the declared model; replace with vendor/bench measurements"
+}

@@ -1,0 +1,10 @@
+method,mean_rank
+ecbs,2.8
+cofly,3.0
+marl,3.35
+hungarian,3.5
+cbs,3.7
+centralised,4.85
+ot_auction,6.9
+pbs,7.9
+greedy,9.0

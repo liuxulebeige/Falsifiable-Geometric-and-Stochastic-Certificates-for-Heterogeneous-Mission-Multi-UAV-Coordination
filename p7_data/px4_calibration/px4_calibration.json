@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "source": "px4_sitl/logs/2026-05-13_hover_loiter.ulg",
+    "platform": "PX4 SITL (quadrotor, 6-DOF hybrid)",
+    "scenario": "takeoff -> hover/loiter -> RTL",
+    "date": "2026-05-13",
+    "note": "simulated IMU/GPS: attitude, actuator and IMU behaviour are calibrated against this record; GPS block is SITL truth constant"
+  },
+  "imu": {
+    "sample_rate_hz": 250.0,
+    "n_samples": 3550482,
+    "gyro_xyz": [
+      {
+        "axis": "x",
+        "mean": 0.000418,
+        "std": 0.01259,
+        "min": -0.06505,
+        "max": 0.065886,
+        "n": 3550482
+      },
+      {
+        "axis": "y",
+        "mean": -0.000632,
+        "std": 0.016276,
+        "min": -0.085267,
+        "max": 0.084003,
+        "n": 3550482
+      },
+      {
+        "axis": "z",
+        "mean": 0.001105,
+        "std": 0.040954,
+        "min": -0.211856,
+        "max": 0.214066,
+        "n": 3550482
+      }
+    ],
+    "accel_xyz": [
+      {
+        "axis": "x",
+        "mean": 0.0212,
+        "std": 0.1834
+      },
+      {
+        "axis": "y",
+        "mean": -0.0475,
+        "std": 0.1901
+      },
+      {
+        "axis": "z",
+        "mean": -9.7986,
+        "std": 0.2247
+      }
+    ],
+    "accel_norm": {
+      "mean": 9.8062,
+      "std": 0.2103
+    },
+    "gravity_est": 9.8,
+    "allan_gyro_x": [
+      [
+        1,
+        0.000497
+      ],
+      [
+        2,
+        0.000389
+      ],
+      [
+        4,
+        0.000298
+      ],
+      [
+        8,
+        0.000244
+      ],
+      [
+        16,
+        0.000231
+      ],
+      [
+        32,
+        0.000268
+      ],
+      [
+        64,
+        0.000402
+      ],
+      [
+        128,
+        0.000771
+      ],
+      [
+        256,
+        0.001842
+      ]
+    ]
+  },
+  "attitude": {
+    "quat_norm": {
+      "mean": 1.00000003,
+      "std": 3e-08
+    },
+    "roll_deg": {
+      "mean": 0.0121,
+      "std": 0.4244
+    },
+    "pitch_deg": {
+      "mean": -0.0308,
+      "std": 0.7752
+    },
+    "yaw_deg": {
+      "mean": 12.44,
+      "std": 1.1287
+    },
+    "reset_events": 2
+  },
+  "actuators": {
+    "motor_trim": {
+      "mean": 768.72,
+      "std": 9.31
+    },
+    "motor_mean": {
+      "mean": 768.72,
+      "std": 11.02
+    },
+    "motor_std": {
+      "mean": 14.036,
+      "std": 3.11
+    },
+    "range": [
+      1000,
+      2000
+    ],
+    "sat_ratio": 9.12e-05
+  },
+  "local_position": {
+    "pos_x": {
+      "mean": 0.0142,
+      "std": 0.0411
+    },
+    "pos_y": {
+      "mean": -0.0205,
+      "std": 0.0473
+    },
+    "pos_z": {
+      "mean": -79.88,
+      "std": 0.062
+    },
+    "horiz_range": 0.1084,
+    "speed": {
+      "mean": 0.0222,
+      "std": 0.0311
+    },
+    "max_speed": 0.8289,
+    "eph": {
+      "mean": 0.1509,
+      "std": 0.0522
+    }
+  },
+  "gps": {
+    "eph": {
+      "mean": 0.9,
+      "std": 0.0
+    },
+    "epv": {
+      "mean": 1.78,
+      "std": 0.0
+    },
+    "hdop": {
+      "mean": 0.7,
+      "std": 0.0
+    },
+    "vdop": {
+      "mean": 1.1,
+      "std": 0.0
+    },
+    "fix_type": {
+      "mean": 3,
+      "std": 0.0
+    },
+    "satellites": {
+      "mean": 10,
+      "std": 0.0
+    },
+    "note": "SITL simulated GNSS: constant by construction, NOT a real GNSS accuracy claim"
+  },
+  "modes": {
+    "total_duration_s": 14530.8,
+    "segments": [
+      {
+        "name": "takeoff",
+        "dur_s": 7.06
+      },
+      {
+        "name": "mission(hover+loiter)",
+        "dur_s": 13747.8
+      },
+      {
+        "name": "rtl",
+        "dur_s": 583.0
+      }
+    ]
+  }
+}

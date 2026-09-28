@@ -1,0 +1,8 @@
+certificate,mode,eta_k
+T1,SE(3) consensus,0.001
+T2,geodesic corridor,0.01
+T3,OU collision marginal,0.0075
+T4,SCP contraction,0.001
+T5,spectral ergodicity,0.02
+T6,OT allocation gap,0.0502
+T7,burst HARQ,0.0343

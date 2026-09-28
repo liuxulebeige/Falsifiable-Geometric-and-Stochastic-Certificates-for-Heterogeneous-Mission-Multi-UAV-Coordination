@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: "CoFly: Falsifiable Geometric and Stochastic Certificates for Heterogeneous-Mission Multi-UAV Coordination"
+version: "1.0.0"
+doi: "10.5281/zenodo.XXXXXXX"
+license: Apache-2.0
+repository-code: "https://github.com/example/p7-cofly"

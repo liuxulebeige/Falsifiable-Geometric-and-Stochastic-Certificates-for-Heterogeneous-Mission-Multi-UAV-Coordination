@@ -1,0 +1,31 @@
+{
+  "Lw_m": 150.0,
+  "sigma_u": 0.9126,
+  "sigma_v": 0.743,
+  "sigma_w": 0.4332,
+  "TI": 0.1134,
+  "dryden_fit_r2": 0.9882,
+  "dryden_fit_L_m": 55.7,
+  "dryden_fit_sigma_u": 0.86,
+  "probe_points": [
+    [
+      0,
+      0,
+      80
+    ],
+    [
+      120,
+      0,
+      80
+    ],
+    [
+      -60,
+      90,
+      80
+    ]
+  ],
+  "inflow_Uref": 8.0,
+  "duration_s": 360.0,
+  "sample_rate_hz": 10.0,
+  "note": "SYNTHETIC SURROGATE"
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": 3,
+  "n_turbines": 2,
+  "wind_ms": 6.0,
+  "ti": 0.1,
+  "n_task": 20,
+  "n_uav": 6,
+  "dmin_m": 2.0,
+  "eps_loc_m": 0.3,
+  "held_out": true,
+  "note": "not used for any parameter fit"
+}

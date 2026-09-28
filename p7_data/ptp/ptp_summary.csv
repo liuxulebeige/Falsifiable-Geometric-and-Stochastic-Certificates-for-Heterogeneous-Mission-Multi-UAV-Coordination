@@ -1,0 +1,2 @@
+n_sync,offset_mean_ns,offset_median_ns,offset_p99_ns,offset_max_ns,sub_ms_claim_pass,sync_interval_ms,note
+2400,5114.92,5056.26,10671.76,14127.93,1,125,SYNTHETIC SURROGATE PTP measurement (hardware-timestamped)

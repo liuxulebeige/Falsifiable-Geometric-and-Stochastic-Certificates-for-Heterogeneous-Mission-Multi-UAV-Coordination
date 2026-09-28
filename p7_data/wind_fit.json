@@ -1,0 +1,10 @@
+{
+  "Uref_ms": 8.0,
+  "TI": 0.1216,
+  "L_u_m": 150.0,
+  "sigma_u": 0.9728,
+  "sigma_v": 0.7036,
+  "sigma_w": 0.4395,
+  "dryden_fit_r2": 0.9634,
+  "note": "SYNTHETIC SURROGATE"
+}

@@ -1,0 +1,11 @@
+claim_id,claim,empirical_observed,published_empirical,theory_reference,published_ratio_gap,experiment,empirical_minus_published,tolerance,note
+T1,SE(3) consensus rate,8.926,8.926,7.2,1.24,fixed/switching disagreement curves,0.0,0.001,
+T2a,flat chord vs geodesic,1.0,1.0,1.0,1.0,chord == geodesic sanity,0.0,0.001,
+T2b,curved corridor wake hits,33.0,33.0,0.0,,straight chord 33% vs geodesic 0%,0.0,0.5,
+T3a,SDE marginal (sigma=0.5),0.0075,0.0075,0.0773,10.3,free MC vs Chernoff bound,0.0,5e-05,
+T3b,SDE first exit (sigma=0.5),0.267,0.267,,,absorptive MC measurement (not bounded),0.0,0.0005,no closed-form majorant: measurement only
+T4,SCP residual ratio,0.000386,0.001,1.0,,residual decay (contraction enforced),-0.000614,0.001,"published as ""< 10^-3"": comparison is an inequality, not an equality"
+T5,spectral ergodic rate,2.604437,2.604,0.762,3.416,switching ensemble,0.000437,0.0005,
+T6,OT / zone-auction gap,0.610005,0.61,2.485,4.07,Sinkhorn vs greedy (OT-auction 0.763),5e-06,0.0005,
+T7,burst HARQ @30%,3.429,3.43,2.7,0.73,burst vs independent product,-0.001,0.005,
+Compose,union bound (Thm V.25),0.124,0.124,0.001,,failure-mode sum,,0.0005,

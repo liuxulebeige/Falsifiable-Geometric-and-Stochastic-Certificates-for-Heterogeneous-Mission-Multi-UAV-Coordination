@@ -1,0 +1,5 @@
+[MILP] run_id=2 method=centralised condition=ablation
+[MILP] presolve: 6 agents x 30 tasks, separation constraints O(n^2 T/dt)
+[SCP ] trust-region iteration 1: residual=1.250e+01
+[SCP ] trust-region iteration 2: residual=6.300e-06
+[MILP] status=optimal gap=0.0000 time=0.006s limit=5.0s fallback=0

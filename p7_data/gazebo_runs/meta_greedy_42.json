@@ -1,0 +1,13 @@
+{
+  "method": "greedy",
+  "seed": 42,
+  "n_uav": 6,
+  "n_task": 30,
+  "duration_s": 2515.64,
+  "collisions": 0.05,
+  "completion_pct": 89.8,
+  "energy_wh": 32.4,
+  "mean_track_err_m": 0.44,
+  "simulator": "Gazebo(rotors)+AirSim scene, 3 x 3.6MW turbines + 36x60 m facade",
+  "scene_hash": "85370498dd9d"
+}

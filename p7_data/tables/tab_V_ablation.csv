@@ -1,0 +1,5 @@
+variant,method,cmax_mean_s,cmax_std_s,collisions,completion_pct,reallocations,energy_wh
+full_cofly,cofly,919.77,84.7,0.25,88.9999,0.3,37.5
+greedy_only,greedy,2503.195,157.3001,0.05,89.8,0.05,32.4
+no_fallback_proxy,hungarian,974.005,77.8001,0.2,88.2,0.2,39.3
+no_zone_priority,centralised,1090.691,159.8001,0.15,91.8,0.15,33.4

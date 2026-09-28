@@ -1,0 +1,4 @@
+segment,dur_s,gyro_std_x,gyro_std_y,gyro_std_z,roll_std_deg,pitch_std_deg,motor_mean_pwm,sat_ratio,horiz_range_m
+takeoff,7.06,0.01259,0.016276,0.040954,0.61,1.02,812.4,0.0024,0.021
+mission(hover+loiter),13747.8,0.01259,0.016276,0.040954,0.4244,0.7752,768.72,9.12e-05,0.1084
+rtl,583.0,0.014102,0.017933,0.045011,1.84,2.61,794.6,0.00067,12.44

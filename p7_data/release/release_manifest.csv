@@ -1,0 +1,7 @@
+artifact,kind,license,status,note
+p7_pipeline/,code,Apache-2.0,to publish,run_all.py --light regenerates tables and figures
+p7_data/,data,CC-BY-4.0,to publish,this package
+results_master.json,data,CC-BY-4.0,to publish,2040 archived runs
+CITATION.cff,metadata,CC0-1.0,to publish,
+Zenodo DOI,metadata,CC-BY-4.0,reserved,10.5281/zenodo.XXXXXXX (placeholder)
+GitHub repo,code,Apache-2.0,placeholder,github.com/example/p7-cofly is a PLACEHOLDER - audit 7.5 / SD-10 requires a real URL

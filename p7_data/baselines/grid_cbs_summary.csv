@@ -1,0 +1,4 @@
+solver,n,mean_makespan,mean_runtime_s
+CBS,20,87.8,1.315
+ECBS,20,78.75,0.859
+PBS,20,94.65,0.424

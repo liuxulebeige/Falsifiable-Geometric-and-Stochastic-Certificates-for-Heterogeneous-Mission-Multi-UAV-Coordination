@@ -1,0 +1,19 @@
+{
+  "links": [
+    "mesh",
+    "5g",
+    "wifi"
+  ],
+  "p_BG": 0.35,
+  "p_GB": 0.15,
+  "p_G": 0.7,
+  "p_B": 0.3,
+  "ci95": [
+    0.291,
+    0.309
+  ],
+  "n": 27000,
+  "stationary_bad_mass": 0.3,
+  "occlusion_coupling_q_at_30pct": 0.007493,
+  "note": "SYNTHETIC SURROGATE traces; parameters reproduce main Table VIII T7 (3.43% vs 2.70%)"
+}

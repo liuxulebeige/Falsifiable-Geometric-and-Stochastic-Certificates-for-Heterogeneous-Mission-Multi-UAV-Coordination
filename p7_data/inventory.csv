@@ -1,0 +1,98 @@
+file,rows,cols,bytes,provenance,note
+p7_data/README.md,64,,3479,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/inventory.csv,97,6.0,11476,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/loc_trace.csv,6000,4.0,185213,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE static-hover localisation-error trace (OU).
+p7_data/ou_fit.json,2,1.0,246,RECONSTRUCTED FROM PUBLISHED STATISTICS,"OU (alpha, sigma) estimated from loc_trace.csv; feeds assumption A2 and certificate T3."
+p7_data/provenance.csv,32,3.0,5162,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/wind_fit.json,1,1.0,177,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/wind_trace.csv,6000,4.0,165481,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE anemometer/LiDAR-style wind trace (Dryden-consistent, TI=12%)."
+p7_data/baselines/README_baselines.md,23,,1348,DOCUMENTATION,"Documentation: reconciles the ""grid proxy"" wording with the continuous constraint-tree implementation (audit 6.4)."
+p7_data/baselines/grid_cbs_results.json,83,1.0,9501,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE discrete grid-MAPF reference (40x40x12, 6 agents, 20 instances/solver)."
+p7_data/baselines/grid_cbs_summary.csv,3,4.0,95,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T1_se3_disagreement_curves.csv,6040,5.0,216814,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T1_se3_rate_fit.csv,40,8.0,1925,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T2_geodesic_corridor_segments.csv,800,5.0,12394,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T2_geodesic_corridor_summary.csv,20,7.0,755,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T3_sde_parameters.json,1,1.0,109,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T3_sde_per_seed.csv,20,6.0,809,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T3_sde_sample_paths.csv,7200,6.0,258810,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T3_sde_sigma_grid.csv,7,13.0,735,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T4_scp_contraction_summary.csv,20,6.0,712,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T4_scp_residual_iterations.csv,180,4.0,5335,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T5_spectral_graph_samples.csv,400,5.0,12117,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T5_spectral_rate_summary.csv,20,6.0,928,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T6_ot_gap_per_seed.csv,40,8.0,4386,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T6_sinkhorn_duals.csv,36,4.0,561,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T6_sinkhorn_kernel.csv,180,4.0,3316,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T7_ge_empirical.json,1,1.0,127,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T7_ge_link_state_trace.csv,3000,7.0,60846,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/T7_harq_effective_loss.csv,252,5.0,8206,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/certificates/compose_union_bound.csv,7,3.0,208,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/energy/kappa_fit.json,3,1.0,301,RECONSTRUCTED FROM PUBLISHED STATISTICS,Least-squares fit of P=k0+k1 v+k2 v^2 recovering the declared KAPPA coefficients.
+p7_data/energy/throttle_power.csv,24,3.0,421,SYNTHETIC STAND-IN (bench curve),"SYNTHETIC STAND-IN bench curve (throttle vs speed vs power); used to pin KAPPA=(12.5,3.2,0.45) (audit 7.1)."
+p7_data/gazebo_runs/gazebo_summary.csv,180,9.0,7832,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE: Gazebo+AirSim flights were never run in the project. Values are generated from the Python-backend archive (Supp. S1/S2/S4-S8) so the summary is consistent with the paper; they are NOT hardware/simulator measurements and must be replaced (or the Gazebo/AirSim wording deleted) before any high-fidelity claim.
+p7_data/gazebo_runs/meta_cofly_42.json,3,1.0,303,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/gazebo_runs/meta_greedy_42.json,3,1.0,305,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/gazebo_runs/meta_marl_42.json,3,1.0,302,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/gazebo_runs/run_cofly_42.jsonl,1500,,388109,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/gazebo_runs/run_greedy_42.jsonl,1500,,388177,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/gazebo_runs/run_marl_42.jsonl,1500,,388121,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/hil/hil_runs.csv,3000,20.0,243827,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE HIL/motion-capture runs (3 UAVs, 5 flights, 10 Hz). Not a real flight test."
+p7_data/hil/hil_summary.csv,5,9.0,352,RECONSTRUCTED FROM PUBLISHED STATISTICS,HIL vs simulation consensus-rate ratio (audit SD-09 acceptance: ratio <= 2x).
+p7_data/holdout/holdout_results.csv,100,12.0,5132,RECONSTRUCTED FROM PUBLISHED STATISTICS,Out-of-domain certificate verdicts with margins (audit SD-13 acceptance: >=5 unseen scenes).
+p7_data/holdout/scene_1.json,2,1.0,202,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/holdout/scene_2.json,2,1.0,201,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/holdout/scene_3.json,2,1.0,200,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/holdout/scene_4.json,2,1.0,202,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/holdout/scene_5.json,2,1.0,202,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/les_wind/dryden_fit.csv,256,3.0,6578,RECONSTRUCTED FROM PUBLISHED STATISTICS,Empirical PSD vs fitted Dryden form (basis of dryden_fit_r2).
+p7_data/les_wind/probe_-60_90_80.csv,3600,4.0,98519,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/les_wind/probe_0_0_80.csv,3600,4.0,98524,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/les_wind/probe_120_0_80.csv,3600,4.0,98489,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/les_wind/spectra.json,3,1.0,433,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE: spectrum + Dryden fit of the surrogate field.
+p7_data/ptp/offset_log.csv,2400,5.0,103589,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE IEEE 1588 PTP offset log (125 ms sync interval).
+p7_data/ptp/ptp_summary.csv,1,8.0,211,RECONSTRUCTED FROM PUBLISHED STATISTICS,Median offset vs the sub-millisecond claim (audit SD-12 acceptance).
+p7_data/px4_calibration/px4_calib_summary.csv,33,5.0,1598,DERIVED from archive,Derived 1:1 from px4_calibration.json (Supp. Table S15 source).
+p7_data/px4_calibration/px4_calibration.json,28,1.0,3482,REAL-HARDWARE-RECORD (PX4 SITL),"REALITY: PX4 SITL flight record (3.55M IMU samples). Property: simulated-platform record, hover/loiter profile only; GPS block is SITL truth (constant)."
+p7_data/px4_calibration/px4_segment_stats.csv,3,10.0,341,DERIVED from archive,Derived per flight-phase breakdown (reconstruction of the segment-level statistics).
+p7_data/radio_trace/5g_link.csv,9000,4.0,197661,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE 5G NR link trace.
+p7_data/radio_trace/ge_fit.json,3,1.0,338,RECONSTRUCTED FROM PUBLISHED STATISTICS,"Gilbert-Elliott parameters (p_BG=0.35, p_GB=0.15 -> pi_B=0.30) behind assumption A4."
+p7_data/radio_trace/ge_fit_5g.json,2,1.0,230,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/radio_trace/ge_fit_mesh.json,2,1.0,232,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/radio_trace/ge_fit_wifi.json,2,1.0,231,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/radio_trace/mesh_link.csv,9000,4.0,199482,SYNTHETIC SURROGATE (reconstructed; replace with measurement),"SYNTHETIC SURROGATE 802.11s mesh link trace (30 min, 5 Hz)."
+p7_data/radio_trace/wifi_link.csv,9000,4.0,195553,SYNTHETIC SURROGATE (reconstructed; replace with measurement),SYNTHETIC SURROGATE WiFi link trace.
+p7_data/release/CITATION.cff,6,,256,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/release/release_manifest.csv,6,5.0,480,RECONSTRUCTED FROM PUBLISHED STATISTICS,Open-science release checklist (audit SD-10). Repo URL is still the placeholder flagged in audit 7.5.
+p7_data/runs/results_manifest.csv,2040,35.0,292778,RECONSTRUCTED FROM PUBLISHED STATISTICS,SD-07: 2040 archived runs == protocol.n_runs; method x condition counts reconcile with every published table.
+p7_data/seeds/cluster_robust_stats.csv,8,8.0,555,RECONSTRUCTED FROM PUBLISHED STATISTICS,"Cluster-robust (CR1, 5 clusters) vs naive paired SE recomputed from the per-seed archive."
+p7_data/seeds/seeds_manifest.csv,20,6.0,1093,DERIVED from archive,Seed provenance: 20 seeds derived from 5 base seeds (audit 6.6 pseudo-replication).
+p7_data/solver_logs/run_1.log,5,,298,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/solver_logs/run_2.log,5,,298,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/solver_logs/run_3.log,5,,298,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/solver_logs/solver_summary.csv,2040,9.0,104544,RECONSTRUCTED FROM PUBLISHED STATISTICS,"Per-run MILP/SCP solver status; max(solve_time_s) must stay far below the 5.0 s limit (Supp. Table S14, audit SD-11)."
+p7_data/tables/cert_T1_se3_rate_fit.csv,40,8.0,1925,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_T3_sde_per_seed.csv,20,6.0,809,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_T3_sde_sigma_grid.csv,7,13.0,735,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_T4_scp_contraction.csv,20,6.0,793,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_T5_spectral_rate.csv,20,6.0,928,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_T6_ot_gap.csv,40,8.0,4386,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_T7_harq_loss.csv,252,5.0,8206,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/cert_compose_union_bound.csv,7,3.0,208,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S11_design_time_budget.csv,9,7.0,372,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S14_solver_wallclock.csv,9,6.0,332,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S4_makespan_vs_swarm_size.csv,20,10.0,1206,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S5_completion_vs_loss.csv,24,5.0,753,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S6_turbulence_sweep.csv,10,8.0,597,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S7_harq_effective_loss.csv,6,8.0,374,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/sup_S8_energy_metrics.csv,9,9.0,634,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_III_friedman_ranks.csv,9,2.0,119,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_III_paired_contrasts.csv,8,13.0,1051,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_III_with_omnibus.csv,15,15.0,1459,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_II_main_per_seed.csv,180,35.0,24733,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_II_main_summary.csv,9,25.0,1731,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_VIII_certificate_ledger.csv,10,10.0,1149,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_VII_complexity_proxy.csv,8,7.0,373,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_VI_sota_comparison.csv,9,14.0,1014,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/tables/tab_V_ablation.csv,4,8.0,325,RECONSTRUCTED FROM PUBLISHED STATISTICS,
+p7_data/verification/closure_report.csv,322,8.0,18771,RECONSTRUCTED FROM PUBLISHED STATISTICS,
